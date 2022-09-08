@@ -1,0 +1,43 @@
+bounties targeted
+
+
+-EPNS* -EPNS channel, Messaging
+-Polygon* -Deploy on POlygon
+-IPFS/FileCoin* -backup data on IPFS
+-Optimism* -Deploy on Optimism
+-Valist*
+-Tellor* -Changing Book NFT for "book club", Snapshot Voting
+-Spruce* -Data Control
+-NFT Port* -Book Nft?
+-Connext*
+-Skale* -Ecosystem
+-Tableland* -NFT Data
+-Unstoppable Domains*
+-Covalent*
+-Superfluid*
+-The Graph* -Index Data
+-ENS -Create ENS Name?
+-Aurora -NEAR Ecosystem/Blockchain
+-Cronos -Ecosystem/Blockchain 
+-Abacus -Messaging
+-Lens -Publishing?
+-LivePeer -Video infrastructure
+-AUT Protocol* -DAOs, Creative, Poetry, Public Goods
+-Unlock -"users to memberships"
+-Debridge -Messaging
+-XMTP -secure private messaging, medical data?
+-Sismo -improve privacy, Medical data?
+-AAVE -"Accesibility"
+-Streamr Network -video?
+-WorldCoin -Accessibility, IDs, Medical Data?
+-Quicknode -NFT(best use or token api?)
+
+
+
+additional resources used:
+-POAP
+-Opensea
+-MintGoldDust
+-Pinata
+-Storj
+-Tatum -Interoperability via admin override.

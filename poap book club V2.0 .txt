@@ -2,7 +2,7 @@ bounties targeted
 
 
 -EPNS* -EPNS channel, Messaging
--Polygon* -Deploy on POlygon
+-Polygon* -Deploy on Polygon
 -IPFS/FileCoin* -backup data on IPFS
 -Optimism* -Deploy on Optimism
 -Valist*
@@ -41,3 +41,54 @@ additional resources used:
 -Pinata
 -Storj
 -Tatum -Interoperability via admin override.
+-cent
+-algorand
+-hashaxis/Hedera
+-Harmony
+-NEAR
+-NiftyKit
+-Page DAO Book Minter
+
+step 1:
+-Unstoppable Domains
+website -About project, NFT collection(redirects various blockchain marketplaces)
+ + 
+Pinata (IPFS + Website file HASH)
+ + 
+Godaddy website (mirror website) 
+ + 
+add various blockchain wallets
+
+Step 2:
+Create NFTs
+-Tellor* - changing NFT?
+-NFT Port
+-Tableland*-NFT Data
+-IPFS*-NFT Backup data, Storj(additional backup)
+
+step 3:
+Deploy on various chains
+-Optimism(NiftyKit)
+-Cent
+-algorand(tatum)
+-NEAR -(Aurora*)
+-Harmony(tatum)
+-Polygon(NiftyKit or PageDao Book Minter)
+-Cronos
+-HEDERA(hashpack?)
+
+Step 4:
+Tellor* + TableLand* + EPNS
+Setup Messaging(allows for book discusion)
+ + 
+Voting Systems(decide upon next book NFT)
+ +
+NFT Tracking*
+ + 
+Create Changing NFT that changes books depending upon votes
+(This creates a potentional fork in readers of book nft but 
+creates a subgroup that can later decide upon another book NFT once finished)
+
+
+Step 5:
+create POAP Rewards NFT(tracks books read)

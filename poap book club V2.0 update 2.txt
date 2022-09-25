@@ -1,4 +1,18 @@
-bounties targeted
+POAP BOOK CLUB V2.0: ETH Online Hackathon 2022
+
+
+---------------
+why its important to get books on the blockchain:
+-Getting books on the blockchain is crucial as it allows for a censorship resistant way
+for access to media.
+-it Paves the way for the future of archival projects.
+-it opens the door for future opportunities to store and access data such as medical data.
+-access to media without reliance on centralized internet servers.
+
+
+----------------
+
+bounties targeted:
 
 
 -EPNS* -EPNS channel, Messaging 
@@ -7,11 +21,11 @@ bounties targeted
 -IPFS/FileCoin* -backup data on IPFS 
 	-Book backed up on IPFS on 9/15/22: ipfs://bafybeifqpkgrnoynbiezuid4g33itrg33cn5epbk74ykvvjxg3nth3vzm4
 	--(EPNS Channel Message about project with a free read of Book on IPFS using my ENS name was sent out on 9/15/22)
--Optimism* -Deploy on Optimism
+-Optimism* -Deploy on Optimism: created a Token Access site on Optimism using the NiftyKit Dropkit: https://app.niftykit.com/access/cdf2fbb4-028f-418f-9068-cec2ce718025  
 -Valist*
 -Tellor* -Changing Book NFT for "book club", Snapshot Voting
 -Spruce* -Data Control
--NFT Port* -Book Nft?
+-NFT Port* -Book Nft? (Created NFTPOrt Account!)
 -Connext*
 -Skale* -Ecosystem
 -Tableland* -NFT Data
@@ -53,6 +67,28 @@ additional resources used:
 -NEAR
 -NiftyKit
 -Page DAO Book Minter
+-Visual Studi Code(Shell)
+-Alchemy API
+
+---------------------------
+
+Bounty target goals completed:
+
+-EPNS* -EPNS channel, Messaging 
+	-(EPNS Channel Message about project with a free read of Book on IPFS using my ENS name was sent out on 9/15/22)
+-IPFS/FileCoin* -backup data on IPFS 
+	-Book backed up on IPFS on 9/15/22: ipfs://bafybeifqpkgrnoynbiezuid4g33itrg33cn5epbk74ykvvjxg3nth3vzm4
+	--(EPNS Channel Message about project with a free read of Book on IPFS using my ENS name was sent out on 9/15/22)
+-Optimism* -Deploy on Optimism: created a Token Access site on Optimism using the NiftyKit Dropkit: https://app.niftykit.com/access/cdf2fbb4-028f-418f-9068-cec2ce718025  
+
+****-NFT Port* -Book Nft? (Created NFTPOrt Account, Began code, need to run code still)
+*****-Tableland(connect with NFT Port)
+*****-Polygon(deploy NFT Port contract on Polygon)
+-Unstoppable Domains*(POAPBookClub.DAO - set up website)
+-ENS -Create ENS Name?
+	-(butterfliesinspace.eth for book)
+	--(EPNS Channel Message about project with a free read of Book on IPFS using my ENS name was sent out on 9/15/22)
+
 
 step 1:
 -Unstoppable Domains
@@ -138,3 +174,154 @@ Unstoppable Domains Poapbookclub.dao 9/15/2022
 
 
 -Note to self: Perhaps add Brave Browser Ad to site and verify website as a Brave Verified Creator!
+
+
+
+NFTPORT Template Code:
+-------------------
+
+curl --request POST \
+  --url https://api.nftport.xyz/v0/contracts \
+  --header 'Authorization: YOUR_API_KEY_HERE' \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "chain": "polygon",
+  "name": "CRYPTOPUNKS",
+  "symbol": "C",
+  "owner_address": "Insert your wallet address",
+  "metadata_updatable": true
+}'
+
+
+
+
+
+NFTPORT IPFS Template Code(Javascript):
+-------------------------------
+
+const fs = require('fs');
+const fetch = require('node-fetch');
+const FormData = require('form-data');
+
+const form = new FormData();
+const fileStream = fs.createReadStream('image.jpg');
+form.append('file', fileStream);
+
+const options = {
+  method: 'POST',
+  body: form,
+  headers: {
+    "Authorization": "API-Key-Here",
+  },
+};
+
+fetch("https://api.nftport.xyz/v0/files", options)
+  .then(response => {
+    return response.json()
+  })
+  .then(responseJson => {
+    // Handle the response
+    console.log(responseJson);
+  })
+
+
+
+created NFT Port SHell File Code:
+
+
+curl --request POST \
+--url https://api.nftport.xyz/v0/contracts \
+--header '03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+--header 'Content-Type: application/json' \
+--data '{
+"chain": "polygon",
+"name": "POAPBookClubBooks"
+"symbol": "PBCB",
+"owner_address": "Butterfliesinspace.eth",
+"metadata_updatable": true
+}'
+
+
+curl --request GET \
+  --url 'https://api.nftport.xyz/v0/contracts/transaction_hash?chain=polygon' \
+  --header 'Authorization: 03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+  --header 'Content-Type: application/json'
+
+
+  curl --request POST \
+    --url 'https://api.nftport.xyz/v0/files' \
+    --header 'Authorization: 03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+    --header 'Content-Type: multipart/form-data' \
+    --form 'file=@/path/to/file_to_upload.png;type=image/png'
+
+
+    curl --request POST \
+  --url https://api.nftport.xyz/v0/metadata \
+  --header 'Authorization: 03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "name": "Butterflies in Space POAP Book Club Edition",
+  "description": "The POAP Book Club edition NFT Book of Butterflies in Space Pocket Edition by Joseph Munisteri",
+  "file_url": "ipfs://bafybeifqpkgrnoynbiezuid4g33itrg33cn5epbk74ykvvjxg3nth3vzm4"
+}'
+
+
+curl --request POST \
+  --url https://api.nftport.xyz/v0/customizable \
+  --header '03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+  --header 'Content-Type: application/json' \
+  --data '{
+    "chain": "polygon",
+    "contract_address": "The contract address which you got from step 1 a",
+    "metadata_uri": "ipfs://bafybeifqpkgrnoynbiezuid4g33itrg33cn5epbk74ykvvjxg3nth3vzm4",
+    "mint_to_address": "Butterfliesinspace.eth"
+}'
+
+
+curl --request GET \
+  --url 'https://api.nftport.xyz/v0/mints/transaction_hash?chain=polygon' \
+  --header '03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+  --header 'Content-Type: application/json'
+
+
+  curl --request POST \
+  --url https://api.nftport.xyz/v0/mints/customizable \
+  --header '03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "chain": "polygon",
+  "contract_address": "The contract address which you got from step 1 a",
+  "token_id": "The token ID which you got from step 1 d",
+  "metadata_uri": "ipfs://bafybeifqpkgrnoynbiezuid4g33itrg33cn5epbk74ykvvjxg3nth3vzm4"
+}'
+
+
+--------------
+
+created Alchemy Javascript Code file:
+------------------
+
+const sdk=require("api")('@alchemy-docs/v1.0#ab5lji4jl6coae2b');
+sdk.ethGetlogsPolygon({
+    id:1,
+    jsonrpc:"2.0",
+    method:"eth_getLogs",
+    params:[{
+        fromBlock:"latest",
+        toBlock:"latest"
+    }]
+},{apiKey:"demo"})
+.then(res=>console.log(res))
+.catch(err=>console.error(err));
+
+
+
+Next STeps:
+
+-Aurora
+-Cronos
+-Skale
+*-The Graph-Index Info
+****-NFT Port* -Book Nft? (Created NFTPOrt Account, Began code, need to run code still)
+*****-Tableland(connect with NFT Port)
+*****-Polygon(deploy NFT Port contract on Polygon)

@@ -1,0 +1,67 @@
+curl --request POST \
+--url https://api.nftport.xyz/v0/contracts \
+--header '03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+--header 'Content-Type: application/json' \
+--data '{
+"chain": "polygon",
+"name": "POAPBookClubBooks"
+"symbol": "PBCB",
+"owner_address": "Butterfliesinspace.eth",
+"metadata_updatable": true
+}'
+
+
+curl --request GET \
+  --url 'https://api.nftport.xyz/v0/contracts/transaction_hash?chain=polygon' \
+  --header 'Authorization: 03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+  --header 'Content-Type: application/json'
+
+
+  curl --request POST \
+    --url 'https://api.nftport.xyz/v0/files' \
+    --header 'Authorization: 03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+    --header 'Content-Type: multipart/form-data' \
+    --form 'file=@/path/to/file_to_upload.png;type=image/png'
+
+
+    curl --request POST \
+  --url https://api.nftport.xyz/v0/metadata \
+  --header 'Authorization: 03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "name": "Butterflies in Space POAP Book Club Edition",
+  "description": "The POAP Book Club edition NFT Book of Butterflies in Space Pocket Edition by Joseph Munisteri",
+  "file_url": "ipfs://bafybeifqpkgrnoynbiezuid4g33itrg33cn5epbk74ykvvjxg3nth3vzm4"
+}'
+
+
+curl --request POST \
+  --url https://api.nftport.xyz/v0/customizable \
+  --header '03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+  --header 'Content-Type: application/json' \
+  --data '{
+    "chain": "polygon",
+    "contract_address": "The contract address which you got from step 1 a",
+    "metadata_uri": "ipfs://bafybeifqpkgrnoynbiezuid4g33itrg33cn5epbk74ykvvjxg3nth3vzm4",
+    "mint_to_address": "Butterfliesinspace.eth"
+}'
+
+
+curl --request GET \
+  --url 'https://api.nftport.xyz/v0/mints/transaction_hash?chain=polygon' \
+  --header '03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+  --header 'Content-Type: application/json'
+
+
+  curl --request POST \
+  --url https://api.nftport.xyz/v0/mints/customizable \
+  --header '03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "chain": "polygon",
+  "contract_address": "The contract address which you got from step 1 a",
+  "token_id": "The token ID which you got from step 1 d",
+  "metadata_uri": "ipfs://bafybeifqpkgrnoynbiezuid4g33itrg33cn5epbk74ykvvjxg3nth3vzm4"
+}'
+
+

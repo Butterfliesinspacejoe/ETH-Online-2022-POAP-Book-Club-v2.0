@@ -1,0 +1,647 @@
+POAP BOOK CLUB V2.0: ETH Online Hackathon 2022
+
+Complete rebuild of ETH NEW York HAckathon 2022 Project
+-Requested permision from eth global team to ensure my porject would still count on 9/16/22, They said yes because it is a complete rebuild!
+-Original project from ETh New York can be foun d here for comparision: https://github.com/Butterfliesinspacejoe/POAP-Book-Club-DAO-ETHGLOBAL-ETHNYC-2022
+
+
+
+
+---------------
+why its important to get books on the blockchain:
+-Getting books on the blockchain is crucial as it allows for a censorship resistant way
+for access to media.
+-it Paves the way for the future of archival projects.
+-it opens the door for future opportunities to store and access data such as medical data.
+-access to media without reliance on centralized internet servers.
+
+
+----------------
+
+bounties targeted:
+
+
+-EPNS* -EPNS channel, Messaging 
+	-(EPNS Channel Message about project with a free read of Book on IPFS using my ENS name was sent out on 9/15/22)
+-Polygon* -Deploy on Polygon
+-IPFS/FileCoin* -backup data on IPFS 
+	-Book backed up on IPFS on 9/15/22: ipfs://bafybeifqpkgrnoynbiezuid4g33itrg33cn5epbk74ykvvjxg3nth3vzm4
+	--(EPNS Channel Message about project with a free read of Book on IPFS using my ENS name was sent out on 9/15/22)
+-Optimism* -Deploy on Optimism: created a Token Access site on Optimism using the NiftyKit Dropkit: https://app.niftykit.com/access/cdf2fbb4-028f-418f-9068-cec2ce718025  
+-Valist*
+-Tellor* -Changing Book NFT for "book club", Snapshot Voting
+-Spruce* -Data Control
+-NFT Port* -Book Nft? (Created NFTPOrt Account!)
+-Connext*
+-Skale* -Ecosystem
+-Tableland* -NFT Data
+-Unstoppable Domains*(POAPBookClub.DAO - set up website)
+-Covalent*
+-Superfluid*
+-The Graph* -Index Data
+-ENS -Create ENS Name?
+	-(butterfliesinspace.eth for book)
+	--(EPNS Channel Message about project with a free read of Book on IPFS using my ENS name was sent out on 9/15/22)
+-Aurora -NEAR Ecosystem/Blockchain
+-Cronos -Ecosystem/Blockchain 
+-Abacus -Messaging
+-Lens -Publishing?
+-LivePeer -Video infrastructure
+-AUT Protocol* -DAOs, Creative, Poetry, Public Goods
+-Unlock -"users to memberships"
+-Debridge -Messaging
+-XMTP -secure private messaging, medical data?
+-Sismo -improve privacy, Medical data?
+-AAVE -"Accesibility"
+-Streamr Network -video?
+-WorldCoin -Accessibility, IDs, Medical Data?
+-Quicknode -NFT(best use or token api?)
+
+
+
+additional resources used:
+-POAP
+-Opensea
+-MintGoldDust
+-Pinata
+-Storj
+-Tatum -Interoperability via admin override.
+-cent
+-algorand
+-hashaxis/Hedera
+-Harmony
+-NEAR
+-NiftyKit
+-Page DAO Book Minter
+-Visual Studi Code(Shell)
+-Alchemy API
+
+---------------------------
+
+Bounty target goals completed:
+
+-EPNS* -EPNS channel, Messaging 
+	-(EPNS Channel Message about project with a free read of Book on IPFS using my ENS name was sent out on 9/15/22)
+-IPFS/FileCoin* -backup data on IPFS 
+	-Book backed up on IPFS on 9/15/22: ipfs://bafybeifqpkgrnoynbiezuid4g33itrg33cn5epbk74ykvvjxg3nth3vzm4
+	--(EPNS Channel Message about project with a free read of Book on IPFS using my ENS name was sent out on 9/15/22)
+-Optimism* -Deploy on Optimism: created a Token Access site on Optimism using the NiftyKit Dropkit: https://app.niftykit.com/access/cdf2fbb4-028f-418f-9068-cec2ce718025  
+
+****-NFT Port* -Book Nft? (Created NFTPOrt Account, Began code, need to run code still)
+*****-Tableland(connect with NFT Port)
+*****-Polygon(deploy NFT Port contract on Polygon)
+-Unstoppable Domains*(POAPBookClub.DAO - set up website)
+-ENS -Create ENS Name?
+	-(butterfliesinspace.eth for book)
+	--(EPNS Channel Message about project with a free read of Book on IPFS using my ENS name was sent out on 9/15/22)
+
+
+step 1:
+-Unstoppable Domains
+website -About project, NFT collection(redirects various blockchain marketplaces)
+ + 
+Pinata (IPFS + Website file HASH)
+ + 
+Godaddy website (mirror website) 
+ + 
+add various blockchain wallets
+
+Step 2:
+Create NFTs
+-Tellor* - changing NFT?
+-NFT Port
+-Tableland*-NFT Data
+-IPFS*-NFT Backup data, Storj(additional backup)
+
+step 3:
+Deploy on various chains
+-Optimism(NiftyKit)
+-Cent
+-algorand(tatum)
+-NEAR -(Aurora*)
+-Harmony(tatum)
+-Polygon(NiftyKit or PageDao Book Minter)
+-Cronos
+-HEDERA(hashpack?)
+
+Step 4:
+Tellor* + TableLand* + EPNS
+Setup Messaging(allows for book discusion)
+ + 
+Voting Systems(decide upon next book NFT)
+ +
+NFT Tracking*
+ + 
+Create Changing NFT that changes books depending upon votes
+(This creates a potentional fork in readers of book nft but 
+creates a subgroup that can later decide upon another book NFT once finished)
+
+
+Step 5:
+create POAP Rewards NFT(tracks books read)
+
+
+
+
+9/9/22- update:
+-Built new version of site. it looks much better. still not finished but done enough
+to feel confident enough to begin shifting focus over to the NFTs and attempting to use 
+TELLOR to create a Dynamic NFT(perhaps a membership NFT that does Book NFT Airdrops?)
+
+-old news, but post eth ny hackathon I managed to aquire the POAPBookClub.com Domain
+
+-attempted to contact the owner of the @POAPBookClub Twitter Handle. MAybe they will
+connect with me?
+
+-Next steps after setting up the NFT's will be to upload to IPFS and NFT STorage, STORj
+Pinata and others and link to the UnstoppableDomain site + create a web2 Mirror using
+the .com domain
+
+
+
+added book and link to "A Bug Travels Far" as second book club book with permission from author Doreen Cummings!
+
+
+-EPNS Notification Sent out about project using ENS Name on 9/15/22
+
+
+----
+
+Unstoppable Domains Poapbookclub.dao 9/15/2022
+	-Added banner 
+	-added website: www.POAPBookClub.com and https://gateway.pinata.cloud/ipfs/QmQBhCABXck6m9zc2VVngiHEndsGoW4YtkgvQR61UbFJdA/
+	-added avatar
+	-Old site on IPFS brings up "504 Error" message: https://ipfs.io/ipfs/QmU93c1ogwVMoMSsZv6QbLg6KCW4TfbSUzykk2YUd5qjRW
+	-Built new webiste
+	-Uploaded New site to IPFS via Pinata: https://gateway.pinata.cloud/ipfs/QmQBhCABXck6m9zc2VVngiHEndsGoW4YtkgvQR61UbFJdA/
+	-Created Mirror of Website for Web2 Browsers: wwww.POAPBookClub.com
+	-Removed old IPFS website HASH
+	-Added new IPFS website HASH!!! - QmQBhCABXck6m9zc2VVngiHEndsGoW4YtkgvQR61UbFJdA
+
+
+-Note to self: Perhaps add Brave Browser Ad to site and verify website as a Brave Verified Creator!
+
+
+
+NFTPORT Template Code:
+-------------------
+
+curl --request POST \
+  --url https://api.nftport.xyz/v0/contracts \
+  --header 'Authorization: YOUR_API_KEY_HERE' \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "chain": "polygon",
+  "name": "CRYPTOPUNKS",
+  "symbol": "C",
+  "owner_address": "Insert your wallet address",
+  "metadata_updatable": true
+}'
+
+
+
+
+
+NFTPORT IPFS Template Code(Javascript):
+-------------------------------
+
+const fs = require('fs');
+const fetch = require('node-fetch');
+const FormData = require('form-data');
+
+const form = new FormData();
+const fileStream = fs.createReadStream('image.jpg');
+form.append('file', fileStream);
+
+const options = {
+  method: 'POST',
+  body: form,
+  headers: {
+    "Authorization": "API-Key-Here",
+  },
+};
+
+fetch("https://api.nftport.xyz/v0/files", options)
+  .then(response => {
+    return response.json()
+  })
+  .then(responseJson => {
+    // Handle the response
+    console.log(responseJson);
+  })
+
+
+
+created NFT Port SHell File Code:
+
+
+curl --request POST \
+--url https://api.nftport.xyz/v0/contracts \
+--header '03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+--header 'Content-Type: application/json' \
+--data '{
+"chain": "polygon",
+"name": "POAPBookClubBooks"
+"symbol": "PBCB",
+"owner_address": "Butterfliesinspace.eth",
+"metadata_updatable": true
+}'
+
+
+curl --request GET \
+  --url 'https://api.nftport.xyz/v0/contracts/transaction_hash?chain=polygon' \
+  --header 'Authorization: 03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+  --header 'Content-Type: application/json'
+
+
+  curl --request POST \
+    --url 'https://api.nftport.xyz/v0/files' \
+    --header 'Authorization: 03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+    --header 'Content-Type: multipart/form-data' \
+    --form 'file=@/path/to/file_to_upload.png;type=image/png'
+
+
+    curl --request POST \
+  --url https://api.nftport.xyz/v0/metadata \
+  --header 'Authorization: 03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "name": "Butterflies in Space POAP Book Club Edition",
+  "description": "The POAP Book Club edition NFT Book of Butterflies in Space Pocket Edition by Joseph Munisteri",
+  "file_url": "ipfs://bafybeifqpkgrnoynbiezuid4g33itrg33cn5epbk74ykvvjxg3nth3vzm4"
+}'
+
+
+curl --request POST \
+  --url https://api.nftport.xyz/v0/customizable \
+  --header '03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+  --header 'Content-Type: application/json' \
+  --data '{
+    "chain": "polygon",
+    "contract_address": "The contract address which you got from step 1 a",
+    "metadata_uri": "ipfs://bafybeifqpkgrnoynbiezuid4g33itrg33cn5epbk74ykvvjxg3nth3vzm4",
+    "mint_to_address": "Butterfliesinspace.eth"
+}'
+
+
+curl --request GET \
+  --url 'https://api.nftport.xyz/v0/mints/transaction_hash?chain=polygon' \
+  --header '03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+  --header 'Content-Type: application/json'
+
+
+  curl --request POST \
+  --url https://api.nftport.xyz/v0/mints/customizable \
+  --header '03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+  --header 'Content-Type: application/json' \
+  --data '{
+  "chain": "polygon",
+  "contract_address": "The contract address which you got from step 1 a",
+  "token_id": "The token ID which you got from step 1 d",
+  "metadata_uri": "ipfs://bafybeifqpkgrnoynbiezuid4g33itrg33cn5epbk74ykvvjxg3nth3vzm4"
+}'
+
+
+--------------
+
+created Alchemy Javascript Code file:
+------------------
+
+const sdk=require("api")('@alchemy-docs/v1.0#ab5lji4jl6coae2b');
+sdk.ethGetlogsPolygon({
+    id:1,
+    jsonrpc:"2.0",
+    method:"eth_getLogs",
+    params:[{
+        fromBlock:"latest",
+        toBlock:"latest"
+    }]
+},{apiKey:"demo"})
+.then(res=>console.log(res))
+.catch(err=>console.error(err));
+
+
+
+Next STeps:
+-Add Page Dao book to website: https://ipfs.nftbookbazaar.com/ipfs/QmVj9YvqFBicwbi66FfEXxcaoBPbKeTHi68jGyvbXFSknD#pdfflip-PDFF/1/
+-Aurora
+-Cronos
+-Skale
+*-The Graph-Index Info
+****-NFT Port* -Book Nft? (Created NFTPOrt Account, Began code, need to run code still)
+*****-Tableland(connect with NFT Port)
+*****-Polygon(deploy NFT Port contract on Polygon)
+
+
+--------------------------
+9/21/22 - updates
+
+
+
+
+
+
+
+
+
+--------------------
+
+9/23/22-updates   
+
+
+
+
+
+NFT Port code:
+
+
+curl --request POST \
+--url https://api.nftport.xyz/v0/contracts \
+--header 'Authorization: 03f489ea-6083-41a5-98bb-facdeb5d1f55' \
+--header 'Content-Type: application/json' \
+--data '{
+"chain": "polygon",
+"name": "POAPBookClubBooks"
+"symbol": "PBCB",
+"owner_address": "Butterfliesinspace.eth",
+"metadata_updatable": true
+}'
+
+
+
+
+This did not work on my shell(visual studio code)....
+
+
+
+wekcome to trial and error. i must test and try and again.
+
+
+
+
+it worked on the NFT POrt Website however!!!! Success!
+
+
+200 OK
+{
+  "response": "OK",
+  "chain": "polygon",
+  "transaction_hash": "0x4f478b22238295aa3b1e6c14308bbe4577cb699945f3a464e59b0095677c7598",
+  "transaction_external_url": "https://polygonscan.com/tx/0x4f478b22238295aa3b1e6c14308bbe4577cb699945f3a464e59b0095677c7598",
+  "owner_address": "0x66f046d4fCeF99106cba0A450f3cD19f3C1d7323",
+  "type": "erc721",
+  "name": "POAPBookClubBooks",
+  "symbol": "PBCB"
+}
+
+
+
+
+
+
+
+const options = {
+  method: 'GET',
+  headers: {
+    'Content-Type': 'application/json',
+    Authorization: '03f489ea-6083-41a5-98bb-facdeb5d1f55'
+  }
+};
+
+fetch('https://api.nftport.xyz/v0/contracts/0x4f478b22238295aa3b1e6c14308bbe4577cb699945f3a464e59b0095677c7598?chain=polygon', options)
+  .then(response => response.json())
+  .then(response => console.log(response))
+  .catch(err => console.error(err));
+
+
+
+
+
+{
+  "response": "OK",
+  "chain": "polygon",
+  "contract_address": "0xEBf10e6935b1E95Fa2341ef3E24D924AE85e8c54",
+  "transaction_hash": "0x4f478b22238295aa3b1e6c14308bbe4577cb699945f3a464e59b0095677c7598"
+}
+
+
+
+curl --request POST \
+    --url 'https://api.nftport.xyz/v0/files' \
+    --header 'Authorization: API Key Here' \
+    --header 'Content-Type: multipart/form-data' \
+    --form 'file=@/path/to/file_to_upload.png;type=image/png'
+
+
+const form = new FormData();
+form.append("file", "Butterflies in Space Read Cover for Dynamic NFT.jpg");
+
+const options = {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'multipart/form-data; boundary=---011000010111000001101001',
+    Authorization: '03f489ea-6083-41a5-98bb-facdeb5d1f55'
+  }
+};
+
+options.body = form;
+
+fetch('https://api.nftport.xyz/v0/files', options)
+  .then(response => response.json())
+  .then(response => console.log(response))
+  .catch(err => console.error(err));
+
+
+
+{
+  "response": "OK",
+  "ipfs_url": "https://ipfs.io/ipfs/bafybeicfddi2totjg2ehvz4fq4bg7u5osajwtppb6gxzz445ipaqlbhecm",
+  "file_name": "Butterflies in Space Read Cover for Dynamic NFT.jpg",
+  "content_type": "image/jpeg",
+  "file_size": 4512206,
+  "file_size_mb": 4.3032
+}
+
+
+
+{
+  "response": "OK",
+  "ipfs_url": "https://ipfs.io/ipfs/QmRModSr9gQTSZrbfbLis6mw21HycZyqMA3j8YMRD11nAQ",
+  "file_name": "name.jpeg",
+  "content_type": "image/jpeg",
+  "file_size": 85138,
+  "file_size_mb": 0.0812
+}
+
+
+
+{
+  "response": "OK",
+  "ipfs_url": "https://ipfs.io/ipfs/bafybeif6bt6ysch3cebdorvlqfcls5kqs5tj5kxq4ggirej5rwcsbgtfxu",
+  "file_name": "front cover.jpg",
+  "content_type": "image/jpeg",
+  "file_size": 4621947,
+  "file_size_mb": 4.4078
+}
+
+
+
+
+
+{
+  "name": "Butterflies in Space: POAP Book Club Edition",
+  "description": "Butterflies in Space! POAP Book Club Edition",
+  "file_url": "https://ipfs.io/ipfs/bafybeif6bt6ysch3cebdorvlqfcls5kqs5tj5kxq4ggirej5rwcsbgtfxu"
+}
+
+
+
+const options = {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    Authorization: '03f489ea-6083-41a5-98bb-facdeb5d1f55'
+  },
+  body: '{"name":"Butterflies in Space: POAP Book Club Edition","description":"Butterflies in Space! POAP Book Club Edition","file_url":"https://ipfs.io/ipfs/bafybeif6bt6ysch3cebdorvlqfcls5kqs5tj5kxq4ggirej5rwcsbgtfxu"}'
+};
+
+fetch('https://api.nftport.xyz/v0/metadata', options)
+  .then(response => response.json())
+  .then(response => console.log(response))
+  .catch(err => console.error(err));
+
+
+
+
+
+{
+  "response": "OK",
+  "metadata_uri": "ipfs://bafkreienbo6q4dedoyqdzcn2sw2a5h6lxuvlyfclnls6q53rhvmeiw4zl4",
+  "name": "Butterflies in Space: POAP Book Club Edition",
+  "description": "Butterflies in Space! POAP Book Club Edition",
+  "file_url": "https://ipfs.io/ipfs/bafybeif6bt6ysch3cebdorvlqfcls5kqs5tj5kxq4ggirej5rwcsbgtfxu",
+  "external_url": null,
+  "animation_url": null,
+  "custom_fields": null,
+  "attributes": null
+}
+
+
+
+{
+  "chain": "polygon",
+  "contract_address": "0xEBf10e6935b1E95Fa2341ef3E24D924AE85e8c54",
+  "metadata_uri": "ipfs://bafkreienbo6q4dedoyqdzcn2sw2a5h6lxuvlyfclnls6q53rhvmeiw4zl4",
+  "mint_to_address": "0x66f046d4fCeF99106cba0A450f3cD19f3C1d7323"
+}
+
+
+const options = {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    Authorization: '03f489ea-6083-41a5-98bb-facdeb5d1f55'
+  },
+  body: '{"chain":"polygon","contract_address":"0xEBf10e6935b1E95Fa2341ef3E24D924AE85e8c54","metadata_uri":"ipfs://bafkreienbo6q4dedoyqdzcn2sw2a5h6lxuvlyfclnls6q53rhvmeiw4zl4","mint_to_address":"0x66f046d4fCeF99106cba0A450f3cD19f3C1d7323"}'
+};
+
+fetch('https://api.nftport.xyz/v0/mints/customizable', options)
+  .then(response => response.json())
+  .then(response => console.log(response))
+  .catch(err => console.error(err));
+
+
+
+{
+  "response": "OK",
+  "chain": "polygon",
+  "contract_address": "0xEBf10e6935b1E95Fa2341ef3E24D924AE85e8c54",
+  "transaction_hash": "0xcf787360b12e52d071899429a738f278cb3678cf74ac35f744ce98f9f274521a",
+  "transaction_external_url": "https://polygonscan.com/tx/0xcf787360b12e52d071899429a738f278cb3678cf74ac35f744ce98f9f274521a",
+  "metadata_uri": "ipfs://bafkreienbo6q4dedoyqdzcn2sw2a5h6lxuvlyfclnls6q53rhvmeiw4zl4",
+  "mint_to_address": "0x66f046d4fCeF99106cba0A450f3cD19f3C1d7323"
+}
+
+
+const options = {
+  method: 'GET',
+  headers: {
+    'Content-Type': 'application/json',
+    Authorization: '03f489ea-6083-41a5-98bb-facdeb5d1f55'
+  }
+};
+
+fetch('https://api.nftport.xyz/v0/mints/0xcf787360b12e52d071899429a738f278cb3678cf74ac35f744ce98f9f274521a?chain=polygon', options)
+  .then(response => response.json())
+  .then(response => console.log(response))
+  .catch(err => console.error(err));
+
+
+
+{
+  "response": "OK",
+  "chain": "polygon",
+  "contract_address": "0xebf10e6935b1e95fa2341ef3e24d924ae85e8c54",
+  "token_id": "189156088990443698096"
+}
+
+
+
+{
+  "name": "Butterflies in Space: POAP Book Club Edition - READ",
+  "description": "Butterflies in Space! POAP Book Club Edition - YOU HAVE READ THIS BOOK",
+  "file_url": "https://ipfs.io/ipfs/bafybeicfddi2totjg2ehvz4fq4bg7u5osajwtppb6gxzz445ipaqlbhecm"
+}
+
+
+const options = {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    Authorization: '03f489ea-6083-41a5-98bb-facdeb5d1f55'
+  },
+  body: '{"name":"Butterflies in Space: POAP Book Club Edition - READ","description":"Butterflies in Space! POAP Book Club Edition - YOU HAVE READ THIS BOOK","file_url":"https://ipfs.io/ipfs/bafybeicfddi2totjg2ehvz4fq4bg7u5osajwtppb6gxzz445ipaqlbhecm"}'
+};
+
+fetch('https://api.nftport.xyz/v0/metadata', options)
+  .then(response => response.json())
+  .then(response => console.log(response))
+  .catch(err => console.error(err));
+
+
+
+{
+  "response": "OK",
+  "metadata_uri": "ipfs://bafkreihdcrj5a2lir26j4bhnrlaxtu5gklxwdrmqrjdz6yyds2beaikixq",
+  "name": "Butterflies in Space: POAP Book Club Edition - READ",
+  "description": "Butterflies in Space! POAP Book Club Edition - YOU HAVE READ THIS BOOK",
+  "file_url": "https://ipfs.io/ipfs/bafybeicfddi2totjg2ehvz4fq4bg7u5osajwtppb6gxzz445ipaqlbhecm",
+  "external_url": null,
+  "animation_url": null,
+  "custom_fields": null,
+  "attributes": null
+}
+
+
+
+----------------------------------------------
+
+
+
+10/7/22
+
+
+Unstoppable Domains Login 
+
+
+attempted to set up the Unstoppable Domains Login for POAPBookClub.com linked with POAPBookClub.DAO
+
+SOmetimes the login/logout buttons will appear on the site and sometimes it will not, however the pop up will not pop up. 
+
+attempted to upload all the files to the hosting server(free hosting server) and keep getting a ran out of space message or the server site crashes while uploading.
+
+will be emailing unstoppable domains to request some advice for support.
+
+
+
+

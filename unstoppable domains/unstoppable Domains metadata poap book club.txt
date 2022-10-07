@@ -1,0 +1,5 @@
+{
+    clientID: "61a71fe6-739b-4bf9-9e5a-1094791c747d",
+    redirectUri: "https://www.POAPbookclub.com",
+    scope: "openid wallet"
+  }
